@@ -1,0 +1,12 @@
+.mobile-hidden{
+  display: none;
+}
+
+
+
+@media only screen and (min-width: $content-width) {
+
+  .mobile-hidden{
+    display: block;
+  }
+}

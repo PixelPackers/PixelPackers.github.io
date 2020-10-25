@@ -1,0 +1,28 @@
+body{
+  color: $text-color;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-size: 5rem;
+}
+
+.hero-text{
+  font-size: 1.5rem;
+}
+a{
+  text-decoration: none;
+  color: $text-color
+}
+
+.chroma-split{
+  filter: drop-shadow(0 3px 0 #F2AC57)
+          drop-shadow(0 3px 0 #F26E50)
+          drop-shadow(0 3px 0 #F25260)
+          drop-shadow(0 3px 0 #443D73)
+          drop-shadow(0 3px 0 #2D2E40);
+}
